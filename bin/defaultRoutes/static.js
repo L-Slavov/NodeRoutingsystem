@@ -22,7 +22,8 @@ function staticProvider (req, res, location) {
     'jpg': 'image/jpeg',
     'css': 'text/css',
     'html': 'text/html',
-    'js': 'application/javascript'
+    'js': 'application/javascript',
+    'png': 'image/png'
   }
   if (allowedExtentions.indexOf(extention) === -1) {
     res.writeHead(403)
